@@ -685,7 +685,7 @@ i[34567]86-*-interix[3-9]*)
 	tmake_file="$tmake_file i386/t-interix i386/t-chkstk"
 	;;
 i[34567]86-*-telos*)
-	#extra_parts="$extra_parts crtbegin.o crtend.o"
+	extra_parts="$extra_parts crtbegin.o crtend.o"
 	tmake_file="$tmake_file i386/t-crtstuff t-crtstuff-pic t-libgcc-pic"
 	;;
 ia64*-*-elf*)
